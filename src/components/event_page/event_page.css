@@ -1,0 +1,82 @@
+.headingDiv {
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(to right, #25303e , #101720);
+    color: aliceblue;
+    float: left;
+    width: 100%;
+    height: 220px;
+}
+
+.headingDiv h2 {
+    color: chocolate;
+}
+
+.mobileInput {
+    border-radius: 37px;
+    width: auto;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+.giftButton {
+    border-radius: 37px;
+    padding: 15px 30px;
+    text-align: start;
+    width: auto;
+    background-color: #009fe3;
+}
+
+.giftButton:disabled {
+    background-color: #d0d0d0;
+}
+
+.cardDiv {
+    height: 130px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: snow;
+    border: 1px solid red;
+    color: brown;
+    padding: 20px;
+    padding-top: 0;
+    transform: translateX(-50%);
+}
+
+.bodyDiv {
+    padding-top: 55px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bodyDiv p {
+    width: 270px;
+}
+
+.thankyYouTable {
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.thankyYouTable tr td:nth-child(2) {
+    padding: 10px;
+}
+
+.thankyYouTable tr:nth-child(odd) td{
+    padding-left: 52px;
+}
+
+.thankyYouTable, .bodyDiv { 
+    border-collapse: separate; 
+    border-spacing: 0 15px;
+}
+
+.bodyDiv { 
+    border-collapse: separate; 
+    border-spacing: 0 40px; 
+}
